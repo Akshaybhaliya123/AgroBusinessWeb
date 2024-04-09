@@ -1,0 +1,4 @@
+.row{
+    margin-right: calc( 0* var(--bs-gutter-x));
+    margin-left: calc( 0* var(--bs-gutter-x));
+    }
