@@ -18,12 +18,13 @@
         body{
             margin:0px;
             padding:0px;
+            overflow-x: hidden; 
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
         .home::before{
             content: "";
             position: absolute;
-            background: url('img/back5.jpg') no-repeat center center/cover;
+            background: url('img/back8.jpg') no-repeat center center/cover;
             height: 500px;
             width: 100%;
             box-shadow: 10px 10px 20px grey;
@@ -49,7 +50,8 @@
             margin-top: 8%;
         }    
         .carrierbody{
-            background-color: rgb(232, 255, 232);
+            /* background-color:rgb(205, 235, 255); */
+            background-color: rgb(232, 255, 232); 
         }
         .cari{
             padding-top: 40px;
@@ -67,13 +69,13 @@
             text-align: center;
             justify-content: center;
             width: 80%;
-            padding:30px;
+            padding:27px;
             
         }
         .cariin{
             background-color:white;
             margin-top:-15px;
-            margin-bottom:-18px;
+            margin-bottom:10px;
         }
         .cari2 h1{
             padding-top: 8%;
@@ -81,7 +83,7 @@
             font-size: 25px;
         }
         .cari2 p{
-            font-size: 16px;
+            font-size: 15px;
             font-weight: 600;
             padding-bottom: 5%;
             text-align:justify;
@@ -231,7 +233,6 @@
         }
         .home h4{
         text-shadow:none;
-        color:white;
       }
       .intro{
         padding-top:5%;
@@ -295,7 +296,7 @@
                 A journey of purpose, dreams to fulfill.
                 They navigate challenges, learn and adapt,
                 Professional landscapes where ambitions are mapped.
-                In the pursuit of goals, fulfillment is unwrapped.</p></center>
+                In the pursuit of goals, fulfillment is unwrapped.</p></center><br><br>
             </div>
             </div>
             </div>

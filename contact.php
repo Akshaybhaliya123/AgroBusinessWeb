@@ -19,13 +19,14 @@
         body{
             margin:0px;
             padding:0px;
+            overflow-x: hidden; 
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
         
         .home::before{
             content: "";
             position: absolute;
-            background: url('img/back5.jpg') no-repeat center center/cover;
+            background: url('img/back8.jpg') no-repeat center center/cover;
             height: 500px;
             border-bottom-left-radius: 30%;
             border-bottom-right-radius: 30%;
@@ -229,7 +230,6 @@
          @media screen and (max-width:600px){
             .home h4{
                    text-shadow:none;
-                   color:white;
              }
          }
          @media screen and (max-width:550px){
@@ -329,7 +329,7 @@ include 'connection.php'
                 <center> <img src="img/maillogo.png" width="30px"><br>
                    <p>Mail:info@jiyaeco.com</p><br>
                       <img src="img/maillogo.png" width="30px"> <br>
-                    <p>Mail:jiyacustomercare@gmail.com</p></center><br>
+                    <p>Mail:jiyacare@gmail.com</p></center><br>
                 
                 </div>
                 </div>

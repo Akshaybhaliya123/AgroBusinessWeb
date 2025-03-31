@@ -12,18 +12,34 @@
     <link rel="stylesheet" href="style.css">
     <title>Inquiry</title>
     <style>
-         .inquirypage::before{
-        content: "";
-        position: absolute;
-        background: url('img/inquiry.png') no-repeat center center/cover;
-        height:100% ;
-        width: 100%;
-        z-index: -1;
-        opacity: 3; 
-        top: 0px;
-        left: 0px;
-        
-    }
+       body{
+            margin:0px;
+            padding:0px;
+            overflow-x: hidden; 
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+       .home::before{
+            content: "";
+            position: absolute;
+            background: url('img/back8.jpg') no-repeat center center/cover;
+            height: 500px;
+            width: 100%;
+            box-shadow: 10px 10px 20px grey;
+            border-bottom-left-radius: 30%;
+            border-bottom-right-radius: 30%;
+            z-index: -1;
+            opacity: 3; 
+            top: 0px;
+            left: 0px; 
+        }
+        .home{
+          margin-bottom: 2%;
+        }
+        .inquirypage{
+          background:url('img/inquiry.png') no-repeat center center/cover;
+          border-radius:20%;
+          margin-bottom:5%;
+        }
        .inqury{
         width: 40%;
         margin-top: 5%;
@@ -42,7 +58,6 @@
        .form-group{
         width: 60%;
         padding: 20px;
-        
        }
        .form-control{
         font-size: 18px;
@@ -52,7 +67,7 @@
        #inquirybtn{
         text-align: center;
         width: 180px;
-        margin-bottom: 15%;
+        margin-bottom: 5%;
         border-radius: 20px;
         font-size: 20px;
         font-weight: 700;
@@ -82,9 +97,14 @@
     </style>
 </head>
 <body>
+  <?php include 'header.php';    ?>
 <?php
 include 'connection.php'
 ?>
+ <div class="home">
+                <center><h1 style="font-weight:600; font-size:55px; margin-top:10%;text-shadow:5px 5px 10px white;">PRODUCTS</h1></center>
+                <center><h4 style="margin-bottom:4%;font-family:'ADLaM Display';font-size:30px;text-shadow:5px 5px 10px white;">We produce organic food here....</h4></center><br><br><br>
+            </div> 
 <?php
 
  if(isset($_POST['data'])){
@@ -93,7 +113,6 @@ include 'connection.php'
     $email = $_POST['email'];
     $phone = $_POST['phone'];
     $message = $_POST['message'];
-  
     $query = "INSERT INTO inquiry (Product,yourname,Email,Mobile,yourmessage) VALUES('$productname','$name','$email','$phone','$message')";
     $data = mysqli_query($conn,$query);
     if($data){
@@ -108,6 +127,7 @@ include 'connection.php'
   }
 
 ?>
+<br>
 <section class="inquirypage" id="inquirypage">
     <div class="row">
      <div class="col-lg-12">
@@ -135,14 +155,13 @@ include 'connection.php'
                   <div class="form-group">
                     <center><button type="submit" name="data" id="inquirybtn">Submit</button></center>
                   </div></center>
-               </form>
-             
+               </form>            
              </div>
             </div>
           </center> 
         </div>
     </div>
 </section>
-
+<?php include 'footer.php';  ?>
 </body>
 </html>

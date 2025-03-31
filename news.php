@@ -15,6 +15,7 @@
     <style>
         body{
             margin:0px;
+            overflow-x: hidden; 
             padding:0px;
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
@@ -23,7 +24,7 @@
         .home::before{
             content: "";
             position: absolute;
-            background: url('img/back5.jpg') no-repeat center center/cover;
+            background: url('img/back8.jpg') no-repeat center center/cover;
             height: 500px;
             width: 100%;
             border-bottom-left-radius: 30%;
@@ -39,12 +40,13 @@
             margin-bottom: 2%;
         }
         #news{
-            background-color: white;
+            background-color:rgb(232, 255, 232);
         }
         .news1{
             border: 2px solid black;
             width: 60%;
             margin-top: 8%;
+            background-color:white;
             padding-bottom: 5%;
             box-shadow: 0px 0px 0px grey, inset -10px -10px 20px grey;
             
@@ -106,7 +108,10 @@
             }
             .home h4{
                 text-shadow:none;
-                color:white;
+            }
+            .news1{
+              width:80%;
+              margin-left:7%;
             }
         }
       

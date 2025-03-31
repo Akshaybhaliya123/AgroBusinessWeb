@@ -16,14 +16,14 @@
         body{
             margin:0px;
             padding:0px;
-            background-color: rgb(235, 255, 235);
+            overflow-x: hidden; 
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
         
         .home::before{
             content: "";
             position: absolute;
-            background: url('img/back5.jpg') no-repeat center center/cover;
+            background: url('img/back8.jpg') no-repeat center center/cover;
             height:500px;
             width: 100%;
             z-index: -1;
@@ -46,7 +46,8 @@
             color: blue;
             margin-bottom: 10%;
             width: 40%;
-            background-color: white;
+            /* background-color:rgb(205, 235, 255); */
+            background-color: rgb(232, 255, 232); 
             box-shadow: 10px 10px 20px grey;
            
          }
@@ -57,7 +58,6 @@
             font-weight: 400;
          }
          .help1{
-          
             width: 85%;
             background-color: rgb(255, 255, 255);
             box-shadow: 0px 0px 0px grey, inset -10px -10px 20px grey;
@@ -143,7 +143,6 @@
         @media screen and (max-width:600px){
             .home h4{
                    text-shadow:none;
-                   color:white;
              }
          }
        @media screen and (max-width:650px){
@@ -206,7 +205,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3" data-aos="zoom-in"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="col-lg-3" data-aos="zoom-in"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500">
                   <div class="help1 help11">
                          <div class="part1">
                            <center> <img src="img/helplogo1.png" height="60px" width="60px"></center>
@@ -226,7 +225,7 @@
                           </div>
                   </div>
             </div>
-            <div class="col-lg-3" data-aos="zoom-in"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="col-lg-3" data-aos="zoom-in"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500">
                 <div class="help1 help12">
                     <div class="part1">
                         <center> <img src="img/helplogo2.png" height="60px" width="60px"></center>
@@ -246,7 +245,7 @@
                         </div> 
                  </div>
             </div>
-            <div class="col-lg-3" data-aos="zoom-in"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="col-lg-3" data-aos="zoom-in"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500">
                 <div class="help1 help13">
                     <div class="part1">
                         <center>  <img src="img/helplogo3.png" height="60px" width="60px"></center>
@@ -266,7 +265,7 @@
                         </div>
                 </div>
             </div>
-            <div class="col-lg-3" data-aos="zoom-in"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="col-lg-3" data-aos="zoom-in"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500">
                 <div class="help1 help14">
                     <div class="part1">
                         <center>  <img src="img/helplogo3.png" height="60px" width="60px"></center>

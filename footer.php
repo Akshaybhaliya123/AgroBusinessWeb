@@ -40,7 +40,8 @@ include 'connection.php'
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
      #footer{
-            background-color:  rgb(128, 193, 255);
+            /* background-color:  rgb(128, 193, 255); */
+            background-color: rgb(114, 237, 38);
             padding: 10px;
         }
         .footerclass h3{
@@ -70,14 +71,24 @@ include 'connection.php'
         .roadmapsec{
             margin-left:17%;
         }
+        .roadmapsec li{
+            margin-bottom:5%;
+        }
         .roadmapsec a{
              margin-left:10%;
             font-family:'ADLaM Display';
             text-align:center;
             font-size: 15px;
+            color:black;
+            padding:5px;
+        }
+        .roadmapsec a:hover{
+            border:2px solid black;
+            background-color:black;
             color:white;
             padding:5px;
-           
+            border-radius:20px;
+            box-shadow:5px 5px 10px skyblue;
         }
         
         .foo2{
@@ -126,7 +137,12 @@ include 'connection.php'
             
         }
         .link li a:hover{
-            color: white;
+            border:2px solid black;
+            padding:5px;
+            color:white;
+            background-color:black;
+            box-shadow:5px 5px 10px skyblue;
+            border-radius:20px;
             list-style: lower-greek;
         }
         .foo4{
@@ -222,11 +238,12 @@ include 'connection.php'
             <center><img src="img/companylogo2.png" width="200px"></center>
             <h4>"Sowing Innovation, Growing Prosperity. Rooted in Excellence, Nurturing the Future."</h4><br>
             <div class="roadmapsec">
-                
-           <u> <a href="roadmap.php">RoadMap</a></u><br>
-           <u> <a href="policy.php">Privacy and Policy</a></u><br>
-           <u> <a href="term.php">Terms and Conditions</a></u><br>
-           <u> <a href="security.php">Security</a></u>
+             <ul>
+                <li>  <a href="roadmap.php">RoadMap</a><br></li>
+                <li> <a href="policy.php">Privacy and Policy</a><br></li>
+                <li>  <a href="term.php">Terms and Conditions</a><br></li>
+                <li>  <a href="security.php">Security</a></li>
+            </ul>
             </div>
         </div>
         </div>

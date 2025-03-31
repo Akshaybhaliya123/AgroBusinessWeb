@@ -17,13 +17,14 @@
         body{
             margin:0px;
             padding:0px;
+            overflow-x: hidden; 
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
         
         .home::before{
             content: "";
             position: absolute;
-            background: url('img/back5.jpg') no-repeat center center/cover;
+            background: url('img/back8.jpg') no-repeat center center/cover;
             height: 500px;
             width: 100%;
             border-bottom-left-radius: 30%;
@@ -42,12 +43,12 @@
             background-color: white;
         }
         .newspart1{
-            background-color: white;
+          background-color:rgb(232, 255, 232);
             margin-top: 5%;
            
         }
         .newspart2{
-            background-color:white;
+          background-color:rgb(232, 255, 232);
             margin-top: 5%;
             border-left: 2px solid black;
         }
@@ -118,7 +119,6 @@
           @media screen and (max-width:600px){
             .home h4{
               text-shadow:none;
-              color:white;
             }
           }
         .up{

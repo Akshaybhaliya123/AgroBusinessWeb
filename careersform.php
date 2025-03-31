@@ -14,12 +14,30 @@
     <link rel="stylesheet" href="style.css">
     <style>
          body{
-            background-color: rgb(232,255,232);
-         }
+            margin:0px;
+            padding:0px;
+            overflow-x: hidden; 
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+        }
+        .home::before{
+            content: "";
+            position: absolute;
+            background: url('img/back8.jpg') no-repeat center center/cover;
+            height: 500px;
+            width: 100%;
+            box-shadow: 10px 10px 20px grey;
+            z-index: -1;
+            border-bottom-left-radius: 30%;
+            border-bottom-right-radius: 30%;
+            opacity: 3; 
+            top: 0px;
+            left: 0px;
+        }
+        .home{
+            margin-bottom: 2%;
+        }
        
-       .apply{
-        background-color: rgb(232,255,232);
-       }
        .formbody{
         border: 2px solid black;
         align-items: center;
@@ -107,6 +125,9 @@
         .form2{
           width:100%;
         }
+        .home{
+          margin-bottom:10rem;
+        }
       }
        @media screen and (min-width:1000px){
         .form1{
@@ -115,6 +136,7 @@
         .form2{
             width: 70%;
         }
+       
        }
        @media screen and (max-width:450px){
         .title h1{
@@ -126,6 +148,11 @@
     <title>Job Application Form</title>
 </head>
 <body>
+  <?php  include 'header.php';  ?>
+  <div class="home">
+            <center><h1 style="font-weight:600; font-size:55px; margin-top:10%;text-shadow:5px 5px 10px white">CAREERS</h1></center>
+            <center><h4 style="font-family:'ADLaM Display';font-size:30px;text-shadow:5px 5px 10px white">Ready to Join Our Team...</h4></center><br><br><br>
+        </div>
 <?php
 include 'connection.php'
 ?>
@@ -222,6 +249,6 @@ include 'connection.php'
            
          </div>
          </form>
-        
+        <?php  include 'footer.php'; ?>
 </body>
 </html>

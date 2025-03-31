@@ -10,19 +10,20 @@
     <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>  
     <link href='https://fonts.googleapis.com/css?family=Croissant One' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
-    
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
         body{
             margin:0px;
             padding:0px;
+            overflow-x: hidden; 
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
         
         .home::before{
             content: "";
             position: absolute;
-            background: url('img/back5.jpg') no-repeat center center/cover;
+            background: url('img/back8.jpg') no-repeat center center/cover;
             height: 500px;
             width: 100%;
             box-shadow: 10px 10px 20px grey;
@@ -75,7 +76,6 @@
         @media screen and (max-width:600px){
             .home h4{
               text-shadow:none;
-              color:white;
             }
           }
     .up{
@@ -107,7 +107,7 @@
        <center><h4 style="margin-bottom:4%;font-family:'ADLaM Display';font-size:30px;text-shadow:5px 5px 10px white">Protecting Trust, Honoring Privacy...</h4></center><br><br><br>
     </div>   
     <div class="row">
-        <div class="col-lg-6 priv">
+        <div class="col-lg-6 priv" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
             <div class="privacy">
             <h3>PRIVACY</h3>
             <p>
@@ -124,19 +124,19 @@
             </p>
             </div>
           </div>
-          <div class="col-lg-6 priv">
+          <div class="col-lg-6 priv" data-aos="zoom-in-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500">
           <div class="privacy-img">
             <img src="img/privacy.jpg">
             </div>
           </div>
     </div>
     <div class="row">
-    <div class="col-lg-6 priv">
+    <div class="col-lg-6 priv" data-aos="zoom-in-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500">
           <div class="policies-img">
             <img src="img/policy.jpg">
             </div>
           </div>
-        <div class="col-lg-6 priv">
+        <div class="col-lg-6 priv" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
             <div class="policies">
             <h3>POLICIES</h3>
             <p>
@@ -165,5 +165,9 @@
         <a href="https://api.whatsapp.com/send?phone=919377427987&text=Website%20Visiter">
         <img src="img/wp1.png" width="40px"></a>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 </html>

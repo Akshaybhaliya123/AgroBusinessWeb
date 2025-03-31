@@ -10,11 +10,12 @@
     <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>  
     <link href='https://fonts.googleapis.com/css?family=Croissant One' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
-    
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
         body{
             margin:0px;
+            overflow-x: hidden; 
             padding:0px;
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             
@@ -181,5 +182,9 @@
         <a href="https://api.whatsapp.com/send?phone=919377427987&text=Website%20Visiter">
         <img src="img/wp1.png" width="40px"></a>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 </html>

@@ -10,20 +10,20 @@
     <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>  
     <link href='https://fonts.googleapis.com/css?family=Croissant One' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+     <link rel="stylesheet" href="style.css">
      <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-   
-    <link rel="stylesheet" href="style.css">
     <style>
         body{
             margin:0px;
             padding:0px;
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            overflow-x: hidden; 
         }
         
         .home::before{
             content: "";
             position: absolute;
-            background: url('img/back5.jpg') no-repeat center center/cover;
+            background: url('img/back8.jpg') no-repeat center center/cover;
             height: 500px;
             width: 100%;
             box-shadow: 10px 10px 20px grey;
@@ -40,7 +40,8 @@
        
         /*About section.... */
         #aboutsec{
-            background-color: rgb(232, 255, 232);
+             background-color: rgb(232, 255, 232); 
+            /* background-color:rgb(205, 235, 255); */
         }
         /*history section*/
         .history{
@@ -48,7 +49,7 @@
         }
         .his1 img{
             border-radius: 50%;
-            margin-top: 10%;
+            margin-top: 7%;
             margin-bottom: 5%;
            border-right: 20px solid green;
          }
@@ -56,7 +57,7 @@
             text-align: center;
          }
          .his2 h1{
-            margin-top: 15%;
+            margin-top: 12%;
             font-size: 36px;
             font-weight: 700;
            
@@ -75,7 +76,7 @@
         .vision{
             border: 2px solid black;
             border-bottom-left-radius: 10%;
-            border-top-right-radius: 10%;
+           
             margin-top: 15%;
             margin-left: 5%;
             width: 85%;
@@ -94,7 +95,7 @@
             padding-bottom: 40px;
             background-color: white; 
             border-bottom-left-radius: 10%;
-            border-top-right-radius: 10%;
+            
             box-shadow: 10px 10px 40px grey; 
         }
         .goal{
@@ -106,7 +107,6 @@
            padding-bottom: 20px;
            width: 85%;
            border-bottom-left-radius: 10%;
-           border-top-right-radius: 10%;
            box-shadow: 10px 10px 40px grey;
         }
         .vision:hover{
@@ -121,10 +121,7 @@
           background-color: greenyellow;
           scale: 0.95;
        }
-        .part1 img{
-            border-top-right-radius: 10%;
-            
-        }
+       
         .part2 h1{
             font-size: 30px;
             font-weight: 600;
@@ -515,7 +512,7 @@
          }
          .home h4{
          text-shadow:none;
-          color:white;
+          
          }
          #final{
           border: 2px solid black;
@@ -553,6 +550,22 @@
         #aboutsec{
           margin-top:20%;
         }
+            .spe2,.spe1{
+              width: 60%;
+            }
+            .team1part2 img{
+              margin-left:-20px;
+          }
+          .team2part1 img{
+            margin-left:-20px;
+          }
+          .team3part2 img{
+            margin-left:-20px;
+          }
+          .testo1{
+            width: 80%;
+            margin-left:25px;
+          }
       }
     </style>
 </head>
@@ -567,7 +580,7 @@
             </div>   
         <section id="aboutsec">
            <div class="row history">
-                <div class="col-lg-6 " data-aos="fade-right"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+                <div class="col-lg-6 " data-aos="fade-up"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
                     <div class="his2">
                     <h1>JIYA ECO PRODUCTS LTD</h1>
                  <center> <p>At JIYA ECO PRODUCTS LTD, we are passionate pioneers in the agricultural industry, dedicated to transforming traditional farming through innovation and sustainability.
@@ -771,28 +784,28 @@
        <u> <center> <h1 class="ourvalueh1" style="font-size: 35px; font-weight:600;margin-bottom:2%">OUR VALUES</h1></center></u>
         <div class="team">
           <div class="row teamAll">
-           <div class="col-lg-3" data-aos="zoom-in-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+           <div class="col-lg-3" data-aos="zoom-in-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                   <div class="value value1">
                   <center>  <img src="img/valuelogo1.png"height="80px" width="80px"></center>
                      <center> <h4>Reliability</h4></center>
                      <p>We're all about being rock-solid. At WebCodeGenie, we make sure our solutions are dependable, so you can count on us to consistently meet your needs.</p>
                   </div>
            </div>
-           <div class="col-lg-3" data-aos="zoom-in-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+           <div class="col-lg-3" data-aos="zoom-in-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                   <div class="value value2">
                 <center><img src="img/valuelogo2.png"height="80px" width="80px"></center>
                      <center> <h4 style="margin-top:-20px">Innovation</h4></center>
                      <p>We love thinking outside the box. Always exploring new and creative ways to solve challenges, we bring fresh ideas to help your business shine in the digital world</p>
                   </div>
            </div>
-           <div class="col-lg-3" data-aos="zoom-in-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+           <div class="col-lg-3" data-aos="zoom-in-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                   <div class="value value3">
                 <center>   <img src="img/valuelogo3.png"height="70px" width="80px"></center>
                   <center> <h4 style="margin-top:15px">Client-Focused</h4></center>
                   <p>You're at the center of what we do. We listen, understand, and customize our services to fit your unique needs. Your success is our main goal.</p>
                   </div>
           </div>
-          <div class="col-lg-3" data-aos="zoom-in-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <div class="col-lg-3" data-aos="zoom-in-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
             <div class="value value4">
             <center>   <img src="img/valuelogo4.png"height="80px" width="80px"></center>
             <center> <h4>Transparency</h4></center>
@@ -806,14 +819,14 @@
      <u> <center><h1 class="ourvalueh1" style="font-size: 35px; font-weight:600;margin-bottom:2%">OUR TESTONOMIAL</h1></center></u>
        <div class="row testo"> 
         <div class="col-lg-6" >
-            <div class="testo1 test3" data-aos="fade-down-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000"> 
+            <div class="testo1 test3" data-aos="fade-down-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500"> 
             <img src="img/t1.png"  width="60%">
             <h3>Mr. Sanjiv Puri</h3>
           <center>  <p class="post">Chairman And MD</p></center>
            <center><b> <h5>ITC Agribusiness Division</h5></b></center>
             <p>Puri was appointed as a Wholetime Director on the Board of ITC with effect from December 6, 2015. Chief Executive Officer in February 2017 and re-designated as the Managing Director in May 2018. He was appointed as the Chairman effective May 13, 2019. He is an alumnus of the Indian Institute of Technology, Kanpur, and the Wharton School of Business, USA.</p>
             </div>
-            <div class="testo1 test1" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="testo1 test1" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500">
                 <img src="img/t2.png"  width="60%">
                 <h3>Shree Alok Bhavarlal Jain</h3>
              <center><p class="post">ChairPerson Executive Directer</p></center>   
@@ -822,14 +835,14 @@
             </div>
         </div>
         <div class="col-lg-6" >
-            <div class="testo1 test3" data-aos="fade-down-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="testo1 test3" data-aos="fade-down-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500">
             <img src="img/t3.png"  width="60%">
             <h3>Mr.Sanjiv Lal </h3>
           <center> <p class="post">Managing Director & CEO</p></center> 
              <center><b> <h5>Rallis India Limited</h5></b></center>
              <p>Mr. Sanjiv Lal is a Chemical Engineering Graduate from the IIT New Delhi. Mr. Lal was the Chief Operating Officer of the India Chemicals Business of Tata Chemicals. he joined Tata Chemicals in 2004, he has handled its Agri Retail Business, headed the organizational transformation and business excellence function, headed the information technology function and was also nominated as the Joint Managing Director to IMACID, a JV in Morocco.</p>
             </div>
-            <div class="testo1 test2" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="testo1 test2" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500">
             <img src="img/t4.png" width="60%">
             <h3>Mr.Rahul Danuka</h3>
           <center>  <p class="post">Joint Managing Director</p></center>

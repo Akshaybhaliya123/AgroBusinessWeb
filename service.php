@@ -19,13 +19,14 @@
         body{
             margin:0px;
             padding:0px;
+            overflow-x: hidden; 
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
         
         .home::before{
             content: "";
             position: absolute;
-            background: url('img/back5.jpg') no-repeat center center/cover;
+            background: url('img/back8.jpg') no-repeat center center/cover;
             height: 500px;
             width: 100%;
             border-bottom-left-radius: 30%;
@@ -61,7 +62,7 @@
         background-color: rgb(186, 255, 107);
        }
        .service1{
-        background-color: rgb(232, 255, 232);
+        background-color:rgb(232, 255, 232);
        }
        
        .fs{
@@ -143,7 +144,7 @@
         @media screen and (max-width:600px){
           .home h4{
             text-shadow:none;
-            color:white;
+            
           }
           .fs,.ms,.es{
             margin-bottom:10%;
@@ -186,7 +187,7 @@
              <center> <img src="img/farming1.jpeg" width="80%" class="fs"></center>
                 
             </div>
-            <div class="col-lg-6 content" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="col-lg-6 content" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
               <center> <u>  <h3>DRIP IRRIGATION SERVICES</h3></u> </center><br><br>
               <p class="firpara">A drip irrigation system is a type of irrigation method that delivers water directly to the base of plants,
                  providing a controlled and efficient way to water crops. Various components make up a drip irrigation system, 
@@ -202,7 +203,7 @@
          </div>
          <!-- services 2 -->
          <div class="row service1">
-            <div class="col-lg-6 content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="col-lg-6 content" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
               <center>  <u> <h3>SPRINKLER IRRIGATION SERVICES</h3></u> </center><br><br>
               <p class="firpara">"Sprinkler irrigation services efficiently distribute water over agricultural fields or landscaped areas,
                  ensuring uniform coverage for optimal plant growth.
@@ -227,7 +228,7 @@
              <center> <img src="img/farming3.jpg" width="80%" class="fs"></center>
                 
             </div>
-            <div class="col-lg-6 content" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="col-lg-6 content" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
               <center> <u>  <h3>LAND MANAGEMENT SERVICES</h3></u> </center><br><br>
               <p class="firpara">"Our land management services offer comprehensive solutions for sustainable and efficient land use.
                  From ecological restoration to resource optimization, our expert team ensures responsible and environmentally friendly practices,
@@ -255,7 +256,7 @@
              <center> <img src="img/maintenance1.png" width="80%" class="ms"></center>
                 
             </div>
-            <div class="col-lg-6 content" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="col-lg-6 content" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
               <center><u>   <h3>GREEN HOUSE MAINTENANCE SERVICES</h3></u> </center><br><br>
               <p class="firpara">"Our greenhouse services offer a seamless blend of technology and expertise, providing customized solutions for controlled-environment agriculture. 
                 From design and installation to climate control systems, we empower clients with the tools needed to maximize crop yields and ensure year-round productivity in a sustainable manner."</p>
@@ -270,7 +271,7 @@
          </div>
          <!-- services 2 -->
          <div class="row service1">
-            <div class="col-lg-6 content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="col-lg-6 content" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
               <center><u>   <h3>MACHINERY REPAIR AND MAINTAIN SERVICES</h3></u> </center><br><br>
               <p class="firpara">Our machinery repair and maintenance services are dedicated to keeping your equipment in peak operating condition. With a team of skilled technicians, 
                 we provide timely repairs and proactive maintenance, ensuring the reliability, efficiency, and longevity of your machinery for uninterrupted productivity."</p>
@@ -296,7 +297,7 @@
          </div>  </div> <br><br>
          <!-- services 2 -->
          <div class="row service1">
-            <div class="col-lg-6 content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="col-lg-6 content" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
               <center> <u>  <h3>ADVANCED TECHNOLOGY SERVICES</h3></u> </center><br><br>
               <p class="firpara">"Experience the forefront of innovation with our advanced technology services, 
                 delivering bespoke solutions tailored to elevate your business in the rapidly evolving digital landscape."</p>
@@ -318,7 +319,7 @@
              <center> <img src="img/advance2.png" width="80%" class="es"></center>
                 
             </div>
-            <div class="col-lg-6 content" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="col-lg-6 content" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
               <center><u> <h3>RESEARCH SERVICES</h3></u> </center><br><br>
               <p class="firpara">"Empower your insights with our research services,
                  dedicated to providing comprehensive and tailored solutions that drive informed decision-making across diverse industries."

@@ -21,7 +21,7 @@
         
         #topbar{
             color: black;
-            background-color: rgb(128, 193, 255);
+            background-color: rgb(114, 237, 38);
             position: sticky;
             box-shadow: 0px 0px 0px green, inset -5px -5px 10px grey;
         }
@@ -34,14 +34,16 @@
         }
     
         .left img{
-            margin-left: 10px;
+            margin-left: 80px;
             margin-top:5px;
+            background-color: white;
+            border-radius: 17px;
         }
         .mid{  
         
          margin: 10px;
-         background-color: rgb(23, 253, 6);
-         color: black;
+         background-color: black;
+         color: white;
          border: 2px solid white;
          box-shadow: 0px 0px 0px green, inset -5px -5px 10px green;
          border-radius: 50px;
@@ -69,7 +71,8 @@
             border:2px solid rgb(128, 193, 255);
             width: 100%;
             margin: 30px auto;
-            background-color:  rgb(128, 193, 255);  
+            /* background-color:  rgb(128, 193, 255);   */
+            background-color: rgb(114, 237, 38);
             position: sticky;
             box-shadow: 0px 0px 0px green, inset -5px -5px 10px grey;
            }
@@ -95,7 +98,7 @@
         .nav li a{
             color:black;
             text-decoration: none;
-            padding: 7px;
+            padding: 5px;
             font-size: 15px;
             font-weight: 600;
             
@@ -110,7 +113,7 @@
 
         /*dropdown menu*/ 
         .dropbtn {
-         background-color:  rgb(128, 193, 255); 
+            background-color: rgb(114, 237, 38);
          color: white;
          padding: 16px;
          box-shadow: 0px 0px 0px green, inset -5px -5px 10px grey;
@@ -127,7 +130,7 @@
    .dropdown-content {
     display: none;
     position: absolute;
-    background-color:  rgb(128, 193, 255); 
+    background-color: rgb(114, 237, 38);
     text-align:center;
      width: 100vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -150,7 +153,7 @@
     display: block;
 }
 .dropdown:hover .dropbtn {
-    background-color: rgb(23, 253, 6);
+    background-color: rgb(114, 237, 38);
 }
         @media screen and (max-width:900px){
             #navbar{
@@ -168,7 +171,7 @@
 <div class="row" id="topbar">
    <div class="col-lg-4">
         <div class="left">
-           <center><img src="img/companylogo2.png" width="170px"></center>   
+           <img src="img/companylogo2.png" width="170px"> 
         </div>
    </div>
    <div class="col-lg-4">

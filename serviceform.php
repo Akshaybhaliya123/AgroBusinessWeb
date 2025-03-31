@@ -15,21 +15,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <style>
-          .serviceform{
-        content: "";
-        position: absolute;
-        background: url('img/serviceform.jpeg') no-repeat center center/cover;
-        width: 100%;
-        z-index: -1;
-        opacity: 3; 
-        top: 0px;
-        left: 0px;
-        
+       body{
+            margin:0px;
+            padding:0px;
+            overflow-x: hidden; 
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+       .home::before{
+            content: "";
+            position: absolute;
+            background: url('img/back8.jpg') no-repeat center center/cover;
+            height: 500px;
+            width: 100%;
+            border-bottom-left-radius: 30%;
+            box-shadow: 10px 10px 20px grey;
+            border-bottom-right-radius: 30%;
+            z-index: -1;
+            opacity: 3; 
+            top: 0px;
+            left: 0px;
+            
+        }
+         .serviceform{
+        background: url('img/serviceform.jpeg') no-repeat center center/cover; 
+        width:100%;
+        margin-bottom:5%;
+        border-radius:20%;
     }
     .serveformdata{
-        width:70%;
-        box-shadow:10px 10px 20px white;
-        
+        width:70%;    
     }
     .serveformdata h1{
         margin-top:5%;
@@ -40,7 +54,6 @@
      .form-group{
         width: 60%;
         padding: 20px;
-        
        }
        .group1{
         width:30%;
@@ -71,6 +84,7 @@
         color: white;
         box-shadow: 3px 3px 15px green;
        }
+      
        @media screen and (max-width:800px){
         .group1{
           width:60%;
@@ -84,10 +98,14 @@
         .form-control{
           font-size:15px;
         }
+        .form-group{
+          width:80%;
+        }
        }
     </style>
 </head>
 <body>
+  <?php  include 'header.php';  ?>
 <?php
 include 'connection.php'
 ?>
@@ -115,6 +133,10 @@ include 'connection.php'
   }
 
 ?>
+  <div class="home">
+            <center><h1 style="font-weight:600; font-size:55px; margin-top:10%; margin-bottom:1%;text-shadow:5px 5px 10px white">SERVICES</h1></center>
+        <center><h4 style="font-family:'ADLaM Display'; font-size:30px;text-shadow:5px 5px 10px white">Delivering Excellence With Our Services....</h4></center>
+    <br><br></div><br><br><br><br>
    <div class="row">
     <div class="col-lg-12">
     <center>
@@ -154,5 +176,6 @@ include 'connection.php'
         </center>
     </div>
    </div> 
+   <?php  include 'footer.php';  ?>
 </body>
 </html>

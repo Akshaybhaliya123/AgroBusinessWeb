@@ -17,11 +17,12 @@
             margin:0px;
             padding:0px;
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            overflow-x: hidden; 
         }
         .home::before{
             content: "";
             position: absolute;
-            background: url('img/back5.jpg') no-repeat center center/cover;
+            background: url('img/back8.jpg') no-repeat center center/cover;
             height: 500px;
             width: 100%;
             box-shadow: 10px 10px 20px grey;
@@ -39,11 +40,10 @@
         /* About section*/
         .history{
             background-color: white;
-           
         }
         .his1 img{
             border-radius: 50%;
-            margin-top: 7%;
+            margin-top: 5%;
             margin-bottom: 5%;
            border-right: 20px solid green;
          }
@@ -51,7 +51,7 @@
             text-align: center;
          }
          .his2 h1{
-            margin-top: 15%;
+            margin-top: 12%;
             font-size: 36px;
             font-weight: 700;
             font-family:'ADLaM Display'
@@ -65,10 +65,12 @@
             width: 80%;
             font-family:'ADLaM Display';
          }
+         .vimi{
+          background-color: rgb(232, 255, 232); 
+         }
          .vision{
             border: 2px solid black;
             border-bottom-left-radius: 10%;
-            border-top-right-radius: 10%;
             margin-top: 15%;
             margin-left: 5%;
             width: 85%;
@@ -87,7 +89,6 @@
             padding-bottom: 40px;
             background-color: white; 
             border-bottom-left-radius: 10%;
-            border-top-right-radius: 10%;
             box-shadow: 10px 10px 40px grey; 
             cursor: pointer;
         }
@@ -100,7 +101,6 @@
            padding-bottom: 20px;
            width: 85%;
            border-bottom-left-radius: 10%;
-           border-top-right-radius: 10%;
            box-shadow: 10px 10px 40px grey;
            cursor: pointer;
         }
@@ -116,10 +116,6 @@
             background-color: greenyellow;
             scale: 0.95;
          }
-        .part1 img{
-            border-top-right-radius: 10%;
-            
-        }
         .part2 h1{
             font-size: 30px;
             font-weight: 600;
@@ -159,7 +155,7 @@
           .tools{
             margin-top: 5%;
             margin-bottom: 5%;
-            background-color: white;
+            background-color: rgb(232, 255, 232); 
             padding: 20px;
             
           }
@@ -234,7 +230,8 @@
             background-color: rgb(186, 255, 107);
            }
            .service1{
-            background-color: rgb(232, 255, 232);
+            /* background-color:rgb(205, 235, 255); */
+            background-color: rgb(232, 255, 232); 
            }
            
            .service1 img{
@@ -290,7 +287,7 @@
             border: 2px solid black;
             margin-top: 6%;
             margin-bottom: 7%;
-            background-color:  rgb(125, 255, 85);
+            background-color: rgb(232, 255, 232); 
             margin-right: 5%;
             box-shadow: 10px 10px 20px rgb(74, 74, 89);
             border-bottom-left-radius: 30%;
@@ -298,14 +295,14 @@
            .careerspart2 h2{
             font-size: 35px;
             font-weight: 700;
-            color: blue;
+            color: black;
             margin-bottom: 3%;
             margin-top: 3%;
            }
            .careerspart2 h4{
             font-size: 25px;
             font-weight: 600;
-            color: blue;
+            color: black;
             margin-bottom: 5%;
            }
            .careerspart2 p{
@@ -325,7 +322,7 @@
            }
            /* news and update section */
            .helpnews{
-            background-color: white;
+            background-color: rgb(232, 255, 232); 
             padding-bottom: 5%;
           
            }
@@ -337,7 +334,8 @@
             width: 60%;
             margin-top: 8%;
             margin-bottom: 7%;
-            background-color: rgba(134, 255, 98, 0.938);
+            /* background-color: rgba(134, 255, 98, 0.938); */
+            background-color:white;
             padding-bottom: 5%;
             box-shadow: 0px 0px 0px grey, inset -10px -10px 20px grey;
             
@@ -381,10 +379,15 @@
             .update2{
                 margin-left: 20%;
             }
+            
         }
         @media screen and (max-width:628px){
             .npart2 p{
                 margin-left: 10px;
+            }
+            .news1{
+              width:80%;
+              margin-left:7%;
             }
         }
        .npart2 a{
@@ -393,13 +396,13 @@
        }
        /*help center section*/
        .help1{
-          
         width: 85%;
         background-color: rgb(239, 239, 239);
         box-shadow: 0px 0px 0px grey, inset -10px -10px 20px grey;
         padding-bottom: 20px;
         border-radius: 7%;
         margin-bottom: 10%;
+        margin-top: 10%;
      }
      .help1:hover{
       border-bottom: 10px solid green;
@@ -407,7 +410,9 @@
       background-color: rgb(179, 244, 255);
      
      }
-
+      .helprow{
+        background-color: rgb(232, 255, 232); 
+      }
      .hpart1 img{
         margin-top: 20px;
 
@@ -547,7 +552,6 @@
       }
       .home h4{
         text-shadow:none;
-        color:white;
       }
    }
    @media screen and (max-width:621px){
@@ -608,12 +612,12 @@
             <center><h4 style="font-weight:600; font-size:50px;text-shadow:5px 5px 10px white">JIYA ECO-PRODUCTS LIMITED...</h4></center><br><br><br>
         </div>
         <div class="row history">
-            <div class="col-lg-6" data-aos="fade-right"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="col-lg-6" data-aos="fade-up"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
                 <div class="his2">
                 <h1>JIYA ECO PRODUCTS LTD</h1>
              <center> <p>At JIYA ECO PRODUCTS LTD, we are passionate pioneers in the agricultural industry, dedicated to transforming traditional farming through innovation and sustainability.
                  Our commitment lies in empowering farmers with cutting-edge technologies, precision practices, and educational initiatives to enhance crop yields while minimizing environmental impact. With a mission to provide high-quality, responsibly cultivated products, we aim to lead the way in shaping a more resilient and eco-conscious future for agriculture...</p>
-                 <a href="about.html" style="font-size:15px;font-family:'ADLaM Display';">View more</a></center>
+                 <a href="about.php" style="font-size:15px;font-family:'ADLaM Display';">View more</a></center>
               </div>
             </div>
             <div class="col-lg-6" data-aos="zoom-in"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
@@ -782,7 +786,7 @@
              <center> <img src="img/farming1.jpeg" width="80%"></center>
                 
             </div>
-            <div class="col-lg-6 content" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="col-lg-6 content" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
               <center> <u>  <h2>DRIP IRRIGATION SERVICES</h2></u> </center><br><br>
               <p class="firpara">A drip irrigation system is a type of irrigation method that delivers water directly to the base of plants,
                  providing a controlled and efficient way to water crops. Various components make up a drip irrigation system, 
@@ -793,12 +797,12 @@
                      non-pressure compensating drippers, and adjustable drippers.</p><br>
                 <center>   <b><h4>Monitoring and Sensors:</h4></b></center> 
                      <p class="secpara">Some advanced systems may include soil moisture sensors, weather sensors, and other monitoring tools to optimize water usage based on environmental conditions.</p>
-                  <center>  <button type="button" class="btn btn-primary btnpri">Book Now</button></center> 
+                  <center>  <a href="serviceform.php"><button type="button" class="btn btn-primary btnpri">Book Now</button></a></center> 
             </div>
          </div>
            <!-- services 2 -->
            <div class="row service1">
-            <div class="col-lg-6 content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="col-lg-6 content" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
               <center> <u>  <h2>ADVANCED TECHNOLOGY SERVICES</h2></u> </center><br><br>
               <p class="firpara">"Experience the forefront of innovation with our advanced technology services, 
                 delivering bespoke solutions tailored to elevate your business in the rapidly evolving digital landscape."</p>
@@ -808,21 +812,21 @@
                 <center>   <b><h4>Smart Irrigation Systems:</h4></b></center> 
                      <p class="secpara">Revolutionize water management in agriculture with our advanced technology services,
                          implementing smart irrigation systems. By incorporating sensors, automation, and data analytics, we ensure precise and efficient water distribution, minimizing waste and maximizing crop health.</p>
-                  <center>  <button type="button" class="btn btn-primary btnpri">Book Now</button></center> 
+                  <center>  <a href="serviceform.php"> <button type="button" class="btn btn-primary btnpri">Book Now</button></a></center> 
                 <center>  <a href="service.php" style="font-size:19px;font-family:'ADLaM Display';margin-top:2%">View more Services...</a></center>
             </div>
             <div class="col-lg-6 " data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <center> <img id="ser2" src="img/advance1.jpg" width="80%"></center> 
             </div>
-         </div>
+         </div>  <br><br><br>
          <!-- careers section -->
         <div class="row careers">
-            <div class="col-lg-6" data-aos="fade-right"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="col-lg-6" data-aos="fade-up"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
                <div class="careerspart1">
            <center><img src="img/homecareers.png" width="80%"></center> 
                </div>
             </div>
-            <div class="col-lg-6" data-aos="fade-left"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <div class="col-lg-6" data-aos="fade-up"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
                 <div class="careerspart2">
              <center> <h2>HELLO FRIENDS...</h2></center><br><br>
               <center> <h4>We are providing best opportunity,</h4></center>
@@ -877,7 +881,7 @@
        <!-- help center section -->
        <center><h1 style="font-weight:600; font-size:40px;font-family:'ADLaM Display'; margin-top:5%;text-shadow:5px 5px 10px white">HELP CENTER</h1></center>
        <center><h4 style="margin-bottom:4%;font-family:'Sofia';font-size:27px">We are here to help....</h4></center><br>
-       <div class="row">
+       <div class="row helprow">
         <div class="col-lg-3" data-aos="zoom-in"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
               <div class="help1 help11">
                      <div class="hpart1">
@@ -957,11 +961,11 @@
                     </div>
             </div>
         </div>
-    </div>
+    </div><br><br><br>
          <!-- contact us section -->
          <div class="row">
           <div class="col-lg-12 contact-back">
-       <center>   <div class="contact-form" data-aos="fade-left"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+       <center>   <div class="contact-form" data-aos="fade-up"  data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
               <div class="top">
                   <center><h2>Get In Touch</h2></center><br>
                   <center><a href="#"><img src="img/twitter-icone.png " height="20px" width="20px"></a>
